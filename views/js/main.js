@@ -459,7 +459,7 @@ var resizePizzas = function(size) {
       newwidth[i] = (randomPizzaContainer[i].offsetWidth + dx) + 'px';
     }
     // Created a new for loop to set the styles of the containers prevent the browser from having to rerender and paint so much. 
-    for (var i = 0; i < pizzaContainerLength; i++) {
+    for (i = 0; i < pizzaContainerLength; i++) {
      randomPizzaContainer[i].style.width = newwidth[i];
     }
   }
